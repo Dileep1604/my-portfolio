@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <div className="rounded-xl overflow-hidden shadow-lg transform transition-all hover:scale-105 aspect-square">
             <img
               src="https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Portrait of Venkat Dileep Banka"
+              alt="Professional portrait"
               className="w-full h-full object-cover"
             />
           </div>
@@ -29,7 +29,7 @@ const About: React.FC = () => {
               I'm a passionate Full-Stack Developer and AI Enthusiast with expertise in Android app development, web technologies, and machine learning. Currently pursuing B.Tech in CSE with a focus on Data Science at Gayatri Vidya Parishad College of Engineering.
             </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              With a perfect CGPA of 9.0 in my Full Stack Development Honor Degree, I've developed a strong foundation in both frontend and backend technologies. I'm particularly interested in AI/ML applications and have completed multiple internships, including positions at Google AI-ML and AWS Cloud Computing through AICTE.
+              With a perfect CGPA of <strong>9.0</strong> in my Full Stack Development Honor Degree, I've developed a strong foundation in both frontend and backend technologies. I'm particularly interested in AI/ML applications and have completed multiple internships, including positions at Google AI-ML and AWS Cloud Computing through AICTE.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
@@ -49,7 +49,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-sm text-gray-500 dark:text-gray-400">Education</h4>
-                  <p className="font-medium text-gray-900 dark:text-white">B.Tech CSE (2022–2026)</p>
+                  <p className="font-medium text-gray-900 dark:text-white">B.Tech CSE (2022-2026)</p>
                 </div>
               </div>
 
